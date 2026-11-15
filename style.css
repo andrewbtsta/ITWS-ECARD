@@ -3,7 +3,7 @@
   --bg: #c01a1a;
   --card: #cd952e;
   --ink: #ffffffd1;
-  --muted: #000000;
+  --muted: #2c0606;
   --accent: #c01a1a;
   --line: #ffffff;
 }
@@ -31,7 +31,7 @@ body {
   /* card color on top of the picture (the 0.75 controls how much of the picture shows) */
   background: url("images/gold.jpg") center / cover,
     var(--card);
-  color: #2b1200;
+  color: #650a0a;
   border-radius: 18px;
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
   text-align: center;
