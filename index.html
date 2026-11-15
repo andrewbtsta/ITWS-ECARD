@@ -16,7 +16,17 @@
             <div class="gift" aria-hidden="true">✉️</div>
             <h1>Hello Ma'am!</h1>
             <p class="sub">Please open it to view the message</p>
-            <a class="click-btn" href="puzzle.html">Click Me</a>
+
+            <!-- HTML5 built-in validation (Unit VII): required + pattern + title, no JavaScript -->
+            <form class="gate" action="puzzle.html" method="get">
+                <label for="secret">Type Roan to proceed</label>
+                <input type="text" id="secret" placeholder="Type Here...."
+                       required
+                       pattern="[Rr][Oo][Aa][Nn]"
+                       title="Please type the word Roan (letters only, no spaces)."
+                       autocomplete="off">
+                <button type="submit" class="click-btn">Click Me</button>
+            </form>
         </div>
     </main>
 </body>

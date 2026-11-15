@@ -322,3 +322,130 @@ a.btn {
   background-size: cover;
   background-position: center;
 }
+
+/* reply form (client-side validation) */
+.reply {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1.5px dashed var(--line);
+  font-family: "Figtree", sans-serif;
+  text-align: left;
+}
+
+.reply h3 {
+  margin: 0 0 12px;
+  font-family: "Fraunces", serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 3px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 9px 10px;
+  font: inherit;
+  font-size: 0.9rem;
+  color: #3b0606;
+  background: #ffffffe6;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.form-group input.invalid,
+.form-group textarea.invalid {
+  border-color: #8b0000;
+}
+
+.form-group input.valid,
+.form-group textarea.valid {
+  border-color: #0b6b2e;
+}
+
+.error-msg {
+  display: block;
+  min-height: 1.1em;
+  margin-top: 3px;
+  color: #8b0000;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.success-msg {
+  display: block;
+  margin-top: 3px;
+  color: #0b5d2a;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.send-btn {
+  margin-top: 4px;
+  padding: 10px 28px;
+  font-size: 1rem;
+}
+
+.form-result {
+  margin: 10px 0 0;
+  font-weight: 700;
+  color: #0b5d2a;
+}
+
+/* "type Roan" gate on the first page (HTML5 validation) */
+.gate {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.gate label {
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.gate input {
+  width: 100%;
+  padding: 10px 12px;
+  font: inherit;
+  text-align: center;
+  color: #3b0606;
+  background: #ffffffe6;
+  border: 2px solid #ffffff;
+  border-radius: 999px;
+}
+
+.gate input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.gate input:user-invalid {
+  border-color: #8b0000;
+}
+
+.gate input:user-valid {
+  border-color: #0b6b2e;
+}
+
+button.click-btn {
+  display: inline-block;
+  font-family: inherit;
+}
