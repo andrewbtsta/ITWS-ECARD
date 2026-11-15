@@ -18,8 +18,8 @@ body {
   padding: 24px 16px;
   display: grid;
   place-items: center;
-  background: var(--bg);
-  color: var(--ink);
+  background: rgb(99, 6, 6);
+  color: rgb(99, 6, 6);
   font-family: "Figtree", sans-serif;
 }
 
