@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>ECARD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,400&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video class="bg-video" src="videos/bg.mp4" autoplay muted loop playsinline></video>
+
+    <!-- PAGE 3 of 3: the message -->
+    <main class="card wide">
+        <div id="game">
+            <h1 id="title"></h1>
+
+            <div class="board done" id="board">
+                <div class="photo" id="photo"></div>
+            </div>
+
+            <div class="tools" id="tools">
+                <a class="btn" href="puzzle.html">Play again</a>
+            </div>
+
+            <section class="msg show" id="msg">
+                <h2 id="mTitle"></h2>
+                <div id="mBody"></div>
+                <p class="from" id="mFrom"></p>
+            </section>
+        </div>
+    </main>
+
+    <script src="card.js"></script>
+    <script src="message.js"></script>
+</body>
+</html>

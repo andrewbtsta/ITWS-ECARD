@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>ECARD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,400&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video class="bg-video" src="videos/bg.mp4" autoplay muted loop playsinline></video>
+
+    <!-- PAGE 2 of 3: the puzzle -->
+    <main class="card">
+        <h1 id="title">Before ang message, puzzle muna!</h1>
+        <p class="sub" id="sub">Tap one piece, then another, to swap them. Something is waiting for you underneath.</p>
+
+        <div class="board" id="board" role="group" aria-label="Picture puzzle"></div>
+
+        <p class="status" id="status" aria-live="polite"></p>
+
+        <div class="tools" id="tools">
+            <button class="btn" id="shuffleBtn" type="button">Shuffle again</button>
+        </div>
+    </main>
+
+    <script src="card.js"></script>
+    <script src="puzzle.js"></script>
+</body>
+</html>
