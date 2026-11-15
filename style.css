@@ -71,6 +71,9 @@ h1 {
   border-radius: 999px;
   cursor: pointer;
   transition: ease 0.2s;
+
+  background: url("images/btn-texture.jpg") center / cover,
+    var(--card);
 }
 
 .click-btn:hover {
@@ -135,6 +138,9 @@ h1 {
   border: none;
   cursor: pointer;
   transition: ease 0.2s;
+
+    background: url("images/btn-texture.jpg") center / cover,
+    var(--card);
 }
 
 .btn:hover {
